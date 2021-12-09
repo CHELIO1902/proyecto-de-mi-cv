@@ -5,112 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi C.V.</title>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: rgb(221, 217, 217);
-        }
-        h2 {
-            color: rgb(52, 52, 216);
-        }
-        h3 {
-            color: rgb(44, 90, 90);
-        }
-        p {
-            color: rgb(29, 83, 29);
-        }
-        ul {
-            word-break: break-all;
-            border-bottom: gray;
-        }
-
-    </style>
+    <!-- fonts de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&family=Readex+Pro:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="mi-cv-style.css">
 </head>
 <body>
-    <nav>
-        <img src="img/DSC_0602.JPG" alt="imagen de mi CV" height="300px">
-        <style>
-            img {
-              border: 1px solid #ddd;
-              border-radius: 30px;
-              padding: 5px;
-              width: 300px;
-            }
-            </style>
-        <h1>Rogelio Dominguez Cob</h1>
-    </nav>
-    <section>
-        <ul>
-            <h2>Información Personal</h2>
-            <li>ESTADO CIVIL: CASADO</li>
-            <li> NACIONALIDAD: MEXICANO</li>
-            <li>EDAD: 30 AÑOS</li>
-            <li>LUGAR DE NACIMIENTO: HOPELCHEN CAMPECHE</li>
-            <li>ESCOLARIDAD: UN AÑO DE CARRERA EN LA FACULTAD DE INGENIERIA / PREPA CONCLUIDA.</li>
-            <li>DIRECCION: CALLE ULUMAL MANZANA 7 LOTE 29 COLONIAL CAMPECHE</li>
-            <li>CEL. 981-105-55-30</li>
-            <li>E-mail: chelio19022012@hotmail.com</li>
-            <li>CURP: DOCR910925HCCMBG02</li>
-            <li>RFC: DOCR-910925-6B6</li>
-            <li>NSS: 81139105241</li>
-            <li>LICENCIA: CHOFER TIPO C y MOTOCICLISTA</li>
-        </ul>
-    </section>
-    
-    <section>
-        <h2>Objetivos</h2>
-        <p>Estabilidad económica para mi familia, superacion personal, concluir mi carrera.</p>
-    </section>
+    <main class="container">
+        <nav class="navbar">
+            <div class="navbar__logo">
+                <img src="./img/js-html-css.png" alt="navbar__logo">
+            </div>
+            <div class="navbar__links">
+                <a href="">Github</a>
+                <a href="">Facebook</a>
+                <a href="">Dribble</a>
+                <a href="">Resume</a>
+            </div>
+        </nav>
+        <div class="encabezado">
+            <div>
+                <img src="img/DSC_0602.JPG" alt="imagen de mi CV" height="300px">
+                <h1>Rogelio Dominguez Cob</h1>
+            </div>
+            <div class="inf_per">
+                <ul>
+                    <h2>Información Personal</h2>
+                    <li>ESTADO CIVIL: CASADO</li>
+                    <li> NACIONALIDAD: MEXICANO</li>
+                    <li>EDAD: 30 AÑOS</li>
+                    <li>LUGAR DE NACIMIENTO: HOPELCHEN CAMPECHE</li>
+                    <li>ESCOLARIDAD: UN AÑO DE CARRERA EN LA FACULTAD DE INGENIERIA / PREPA CONCLUIDA.</li>
+                    <li>CEL. 981-105-55-30</li>
+                    <li>E-mail: chelio19022012@hotmail.com</li>
+                    <li>LICENCIA: CHOFER TIPO C y MOTOCICLISTA</li>
+                </ul>
+            </div>
+        </div>
+        <!-- <section>
+            <h2>Objetivos</h2>
+            <p>Estabilidad económica para mi familia, superacion personal, concluir mi carrera.</p>
+        </section>
 
-    <section>
-        <h2>Educación</h2>
-        <table>
-            <tr>
-                <th>Periodo</th>
-                <th>Colegio</th>
-                <th>Hubicación</th>
-                <th>Titulo Obtenido</th>
-            </tr>
-            <tr>
-                <th>1998-2004</th>
-                <th>Primaria Niños Heroes</th>
-                <th>Campeche</th>
-                <th>Certificado</th>
-            </tr>
-            <tr>
-                <th>2004-2007</th>
-                <th>Secundaria Tecnica #23</th>
-                <th>Campeche</th>
-                <th>Certificado</th>
-            </tr>
-            <tr>
-                <th>2009-2012</th>
-                <th>Instituto Campechano</th>
-                <th>Campeche</th>
-                <th>Certificado</th>
-            </tr>
-            <tr>
-                <th>2012-2013</th>
-                <th>Facultad de Ingenieria U.A.C.</th>
-                <th>Campeche</th>
-                <th>Inconcluso</th>
-            </tr>
-        </table>
-    </section>
+        <div class="table">
+            <h2>Educación</h2>
+            <table class="table_int">
+                <tr>
+                    <th>Periodo</th>
+                    <th>Colegio</th>
+                    <th>Hubicación</th>
+                    <th>Titulo Obtenido</th>
+                </tr>
+                <tr>
+                    <th>1998-2004</th>
+                    <th>Primaria Niños Heroes</th>
+                    <th>Campeche</th>
+                    <th>Certificado</th>
+                </tr>
+                <tr>
+                    <th>2004-2007</th>
+                    <th>Secundaria Tecnica #23</th>
+                    <th>Campeche</th>
+                    <th>Certificado</th>
+                </tr>
+                <tr>
+                    <th>2009-2012</th>
+                    <th>Instituto Campechano</th>
+                    <th>Campeche</th>
+                    <th>Certificado</th>
+                </tr>
+                <tr>
+                    <th>2012-2013</th>
+                    <th>Facultad de Ingenieria U.A.C.</th>
+                    <th>Campeche</th>
+                    <th>Inconcluso</th>
+                </tr>
+            </table>
+        </div>
 
-    <section>
-        <h2>Intereses y Actividades</h2>
-        <p>Me considero una persona responsable, honesto y comprometido con su trabajo, se trabajar bajo preción y objetivos, cuento con facilidad de palabra.</p>
-    </section>
-
-    <section>
-        <h2>Experiencia Laboral</h2>
         <div>
-        <h2>21 – AGOSTO – 2018 / 02 – ABRIL - 2020    FUNDACIÓN RAFAEL DONDE IAP (ASCENSO)</h2> 
-            <h3>EJECUTIVO FINANCIERO - VALUADOR / 2DO USUARIO (SUBGERENTE)</h3>
-            <p>VALUACION DE METALES PRECIOSOS, DIAMANTES, RELOJES, VARIOS ELECTRONICOS, VEHICULOS. ATENCION A CLIENTES, MANEJO DE PERSONAL, CONTROL DE VIATICOS, RECEPCION Y ENTREGA DE SUCURSAL, CONTROL DE INVENTARIO, RESOLUCION DE PROBLEMAS, CAMBACEO Y PROSPECCIÓN DE CLIENTES, SEGUIMIENTO DE PROSPECTOS, COLOCACION DE PRODUCTOS BANCARIOS, APEGO A POLITICAS, SEGUIMIENTO DE ESTRATEGIAS DE COLOCACION, DISPONIBILIDAD PARA VIAJAR.</p>
-        </div> 
+            <h2>Intereses y Actividades</h2>
+            <p>Me considero una persona responsable, honesto y comprometido con su trabajo, se trabajar bajo preción y objetivos, cuento con facilidad de palabra.</p>
+        </div>
+        <div class="container"> 
+            <h1>Experiencia Laboral</h1>
+              <h2>21 – AGOSTO – 2018 / 02 – ABRIL - 2020    FUNDACIÓN RAFAEL DONDE IAP "ASCENSO"</h2> 
+                <h3>EJECUTIVO FINANCIERO - VALUADOR / 2DO USUARIO (SUBGERENTE)</h3>
+                VALUACION DE METALES PRECIOSOS, DIAMANTES, RELOJES, VARIOS ELECTRONICOS, VEHICULOS. ATENCION A CLIENTES, MANEJO DE PERSONAL, CONTROL DE VIATICOS, RECEPCION Y ENTREGA DE SUCURSAL, CONTROL DE INVENTARIO, RESOLUCION DE PROBLEMAS, CAMBACEO Y PROSPECCIÓN DE CLIENTES, SEGUIMIENTO DE PROSPECTOS, COLOCACION DE PRODUCTOS BANCARIOS, APEGO A POLITICAS, SEGUIMIENTO DE ESTRATEGIAS DE COLOCACION, DISPONIBILIDAD PARA VIAJAR.
+        </div>  -->
+        <!--verificando la clase
         <div>
             <h2>15 – JUNIO – 2016 / 20 – AGOSTO – 2018 FUNDACIÓN RAFAEL DONDE IAP</h2>
             <h3>CAJERO PRINCIPAL MUNTIFUNCIONAL FUERZA DE APOYO</h3>
@@ -136,8 +120,8 @@
                 <h3>VENDEDOR DE SUCURSAL</h3>
                 <p>CONTROL DE VENTA DIRECTA, CORDINACIÓN DE HORARIOS Y ESTRATEGIAS DE VENTA, MANEJO DE CAJA CHICA, VALORES,  CONTROL DE INVENTARIO, APERTURA, REPORTES DE VENTA Y ALCANSE DE OBJETIVO, CORTES DE CAJA, DEPOSITOS Y MANEJO DE HERRAMIENTAS DE OFICINA.</p>
         </div>
-    </section>
-
+        -->
+    </main>
 
 </body>
 </html>
