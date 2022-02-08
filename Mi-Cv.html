@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="mi-cv-style.css">
 </head>
 <body>
-    <main class="container">
+    <main class="info">
         <nav class="navbar">
             <div class="navbar__logo">
                 <img src="./img/js-html-css.png" alt="navbar__logo">
@@ -20,107 +20,147 @@
             <div class="navbar__links">
                 <a href="">Github</a>
                 <a href="">Facebook</a>
-                <a href="">Dribble</a>
-                <a href="">Resume</a>
+                <a href="">Twitter</a>
+                <!-- <a href=""></a> -->
             </div>
         </nav>
-        <div class="encabezado">
-            <div>
-                <img src="img/DSC_0602.JPG" alt="imagen de mi CV" height="300px">
-                <h1>Rogelio Dominguez Cob</h1>
-            </div>
-            <div class="inf_per">
-                <ul>
-                    <h2>Información Personal</h2>
-                    <li>ESTADO CIVIL: CASADO</li>
-                    <li> NACIONALIDAD: MEXICANO</li>
-                    <li>EDAD: 30 AÑOS</li>
-                    <li>LUGAR DE NACIMIENTO: HOPELCHEN CAMPECHE</li>
-                    <li>ESCOLARIDAD: UN AÑO DE CARRERA EN LA FACULTAD DE INGENIERIA / PREPA CONCLUIDA.</li>
-                    <li>CEL. 981-105-55-30</li>
-                    <li>E-mail: chelio19022012@hotmail.com</li>
-                    <li>LICENCIA: CHOFER TIPO C y MOTOCICLISTA</li>
+        <div class="container">
+            <aside class="left-side">
+              <img
+                src="./img/DSC_0675 - copia.JPG"
+                alt="My photo"
+                width="370"
+                class="photo"
+              />
+      
+              <section class="contacts">
+                <h2 class="contacts-title">Contacto</h2>
+                <ul class="contacts-list">
+                  <li class="contacts-item">
+                    Phone:
+                    <a href="tel:+777777777777" class="contacts-link"
+                      >981-105-55-30</a
+                    >
+                  </li>
+                  <li class="contacts-item">
+                    E-mail:
+                    <a href="mailto:JohnDoe@gmail.com" class="contacts-link"
+                      >chelio19022012@hotmail.com</a
+                    >
+                  </li>
                 </ul>
+              </section>
+      
+              <section class="skills">
+                <h2 class="skills-title">
+                  Habilidades Tecnológicas.
+                </h2>
+                <ul class="skills-list">
+                  <li class="skills-item">HTML</li>
+                  <li class="skills-item">CSS</li>
+                  <li class="skills-item">Git</li>
+                  <li class="skills-item">JavaScript</li>
+                <!--   <li class="skills-item">React</li>
+                  <li class="skills-item">Node.js</li> -->
+                </ul>
+              </section>
+              <section class="skills">
+                <!-- <h2 class="skills-title">
+                  Soft skills
+                </h2>
+                <ul class="skills-list">
+                  <li class="skills-item">Scrum</li>
+                  <li class="skills-item">Agile</li>
+                  <li class="skills-item">GTD</li>
+                  <li class="skills-item">Teamwork</li> -->
+                </ul>
+              </section>
+            </aside>
+            <div class="right-side">
+              <section class="bio">
+                <h1 class="bio-title">Rogelio Dominguez</h1>
+                <p class="bio-occupation">
+                  Cursando Master en Coding - DEV.F
+                </p>
+                <p class="bio-about">Siendo una nueva experiencia, no me va mal y estoy dando lo mejor que puedo.
+                </p>
+              </section>
+      
+              <section class="projects">
+                <h2 class="projects-title">Projects</h2>
+      
+                <ol>
+                  <li>
+                    <a class="experience-item">
+                      Ninguno por el momento
+                    </a>
+                  <!-- </li>
+                  <li>
+                    <a href="https://cryptohub.goit.global/" class="projects-link">
+                      https://cryptohub.goit.global
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://kidslike.goit.global/" class="projects-link">
+                      https://kidslike.goit.global
+                    </a> -->
+                  </li>
+                </ol>
+              </section>
+              <section class="jobs">
+                <h2 class="jobs-title">
+                  Work experience
+                </h2>
+      
+                <h3 class="jobs-occupation">
+                  EJECUTIVO FINANCIERO - VALUADOR / 2DO USUARIO (SUBGERENTE)
+                  <span class="accent">FUNDACIÓN RAFAEL DONDE IAP </span>
+                </h3>
+      
+                <p class="jobs-time">
+                  21 – AGOSTO – 2018 / 02 – ABRIL - 2020
+                </p>
+      
+                <ul class="experience">
+                  <li class="experience-item">Valuacion de metales preciosos, diamantes, relojes, varios electronicos, vehiculos. atencion a clientes, manejo de personal, control de viaticos, recepcion y entrega de sucursal, control de inventario, resolucion de problemas, cambaceo y prospección de clientes, seguimiento de prospectos, colocacion de productos bancarios, apego a politicas, seguimiento de estrategias de colocacion.
+                </ul>
+      
+                <h3 class="jobs-occupation">
+                  CAJERO PRINCIPAL MUNTIFUNCIONAL FUERZA DE APOYO <span class="accent">FUNDACIÓN RAFAEL DONDE IAP</span>
+                </h3>
+                <p class="jobs-time">15 – JUNIO – 2016 / 20 – AGOSTO – 2018</p>
+                <ul class="experience">
+                  <li class="experience-item">Recepcion y entrega de boveda, inventario de valores, resguardo de valores, control, recoleccion y ministracion de efectivo, deteccion de billetes falsos, operaciones bancarias, promocion de productos en ventanilla, apego a politicas de seguridad, dotacion y arqueo de caja, atención personalizada de clientes, cambaceo y prospección de clientes, facturacion y comprobacion de viaticos.</li>
+                  
+                </ul>
+      
+                <h3 class="jobs-occupation">
+                  EJECUTIVO DE VENTA SCH<span class="accent">MANPOWER / NEXTEL</span>
+                </h3>
+                <p class="jobs-time">24 - JUNIO – 2015 / 10 – JUNIO - 2016 </p>
+                <ul class="experience">
+                  <li class="experience-item">Facturación y cobro de equipos en plan de renta, prospección y seguimiento de clientes en pdv y cambaceo, atención al cliente, exhibición de equipos, seguimiento de ofertas diarias y mensuales, actualización de frames, envió de reportes diarios, manejo de documentos, estrategias de venta, alcanse de objetivos.</li>
+                  
+                </ul>
+              </section>
+              <section class="education">
+                <h2 class="education-title">Education</h2>
+      
+                <h3 class="education-degree">
+                  Bachillerato,
+                  <span class="accent"
+                    > Instituto Campechano</span>
+                </h3>
+                <p class="education-time">2009 - 2012</p>
+      
+                <h3 class="education-degree">
+                  Master en Coding, <span class="accent">DEV.F Courses</span>
+                </h3>
+                <p class="education-time">Nov. 2021 - En curso</p>
+              </section>
             </div>
-        </div>
-        <!-- <section>
-            <h2>Objetivos</h2>
-            <p>Estabilidad económica para mi familia, superacion personal, concluir mi carrera.</p>
-        </section>
+          </div>
 
-        <div class="table">
-            <h2>Educación</h2>
-            <table class="table_int">
-                <tr>
-                    <th>Periodo</th>
-                    <th>Colegio</th>
-                    <th>Hubicación</th>
-                    <th>Titulo Obtenido</th>
-                </tr>
-                <tr>
-                    <th>1998-2004</th>
-                    <th>Primaria Niños Heroes</th>
-                    <th>Campeche</th>
-                    <th>Certificado</th>
-                </tr>
-                <tr>
-                    <th>2004-2007</th>
-                    <th>Secundaria Tecnica #23</th>
-                    <th>Campeche</th>
-                    <th>Certificado</th>
-                </tr>
-                <tr>
-                    <th>2009-2012</th>
-                    <th>Instituto Campechano</th>
-                    <th>Campeche</th>
-                    <th>Certificado</th>
-                </tr>
-                <tr>
-                    <th>2012-2013</th>
-                    <th>Facultad de Ingenieria U.A.C.</th>
-                    <th>Campeche</th>
-                    <th>Inconcluso</th>
-                </tr>
-            </table>
-        </div>
-
-        <div>
-            <h2>Intereses y Actividades</h2>
-            <p>Me considero una persona responsable, honesto y comprometido con su trabajo, se trabajar bajo preción y objetivos, cuento con facilidad de palabra.</p>
-        </div>
-        <div class="container"> 
-            <h1>Experiencia Laboral</h1>
-              <h2>21 – AGOSTO – 2018 / 02 – ABRIL - 2020    FUNDACIÓN RAFAEL DONDE IAP "ASCENSO"</h2> 
-                <h3>EJECUTIVO FINANCIERO - VALUADOR / 2DO USUARIO (SUBGERENTE)</h3>
-                VALUACION DE METALES PRECIOSOS, DIAMANTES, RELOJES, VARIOS ELECTRONICOS, VEHICULOS. ATENCION A CLIENTES, MANEJO DE PERSONAL, CONTROL DE VIATICOS, RECEPCION Y ENTREGA DE SUCURSAL, CONTROL DE INVENTARIO, RESOLUCION DE PROBLEMAS, CAMBACEO Y PROSPECCIÓN DE CLIENTES, SEGUIMIENTO DE PROSPECTOS, COLOCACION DE PRODUCTOS BANCARIOS, APEGO A POLITICAS, SEGUIMIENTO DE ESTRATEGIAS DE COLOCACION, DISPONIBILIDAD PARA VIAJAR.
-        </div>  -->
-        <!--verificando la clase
-        <div>
-            <h2>15 – JUNIO – 2016 / 20 – AGOSTO – 2018 FUNDACIÓN RAFAEL DONDE IAP</h2>
-            <h3>CAJERO PRINCIPAL MUNTIFUNCIONAL FUERZA DE APOYO</h3>
-            <p>ECEPCION Y ENTREGA DE BOVEDA, INVENTARIO DE VALORES, RESGUARDO DE VALORES, CONTROL, RECOLECCION Y MINISTRACION DE EFECTIVO, DETECCION DE BILLETES FALSOS, OPERACIONES BANCARIAS, PROMOCION DE PRODUCTOS EN VENTANILLA, APEGO A POLITICAS DE SEGURIDAD, DOTACION Y ARQUEO DE CAJA, ATENCIÓN PERSONALIZADA DE CLIENTES, CAMBACEO Y PROSPECCIÓN DE CLIENTES, FACTURACION Y COMPROBACION DE VIATICOS, DISPONIBILIDAD PARA VIAJAR.</p>
-        </div>
-        <div>
-            <h2>24 - JUNIO – 2015 / 10 – JUNIO - 2016  MANPOWER / NEXTEL</h2>
-                <h3>EJECUTIVO DE VENTA SCH</h3>
-                <p>FACTURACIÓN Y COBRO DE EQUIPOS EN PLAN DE RENTA, PROSPECCIÓN Y SEGUIMIENTO DE CLIENTES EN PDV Y CAMBACEO, ATENCIÓN AL CLIENTE, EXHIBICIÓN DE EQUIPOS, SEGUIMIENTO DE OFERTAS DIARIAS Y MENSUALES, ACTUALIZACIÓN DE FRAMES, ENVIÓ DE REPORTES DIARIOS, MANEJO DE DOCUMENTOS.</p>
-        </div>
-        <div>
-            <h2>06 – MAYO – 2014  / 17 - MARZO -2015        SERFINCOR S.A. DE C.V (FINANCIERA INDEPENDENCIA)</h2>
-                <h3>ASESOR DE CREDITOS FINANCIEROS</h3>
-                <p>ATENCION DE CLIENTES, PROSPECCIÓN DE CLIENTES, RESOLUCION DE CONFLICTOS, SEGUIMIENTO DE PROSPECTOS, CAMBACEO, COBRANZA, ESTRATEGIAS DE VENTA, ALCANSE DE OBJETIVOS Y MANEJO DE DOCUMENTOS, CONOCIMIENTO DE LA CIUDAD.</p>
-        </div>
-        <div>
-            <h2>ENERO – MAYO DE 2014      VIVEPOMOCA S.A. DE C.V</h2> 
-                <h3>EJECUTIVO DE CREDITO DE VIVIENDAS</h3>
-                <p>ATENCION DE CLIENTES, PROSPECCIÓN DE CLIENTES, ELABORACION DE REPORTES, SEGUIMIENTO DE CREDITOS, CAMBACEO Y MANEJO DE DOCUMENTOS.</p>
-        </div>
-        <div>
-            <h2>2013 (03/AGOSTO- DICIEMBRE)   ARKYS - BABY UPSCALE</h2>
-                <h3>VENDEDOR DE SUCURSAL</h3>
-                <p>CONTROL DE VENTA DIRECTA, CORDINACIÓN DE HORARIOS Y ESTRATEGIAS DE VENTA, MANEJO DE CAJA CHICA, VALORES,  CONTROL DE INVENTARIO, APERTURA, REPORTES DE VENTA Y ALCANSE DE OBJETIVO, CORTES DE CAJA, DEPOSITOS Y MANEJO DE HERRAMIENTAS DE OFICINA.</p>
-        </div>
-        -->
     </main>
 
 </body>
